@@ -1,7 +1,42 @@
-.column {
-  width: 30%;
-  float: left;
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
 }
+.column-container {
+  box-sizing: content-box;
+  margin-bottom: 20px;
+}
+
+.container h1 span {
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.column {
+
+  width: 33%;
+  padding: 15px;
+  float: left;
+  border-style: solid;
+  border-width: 2px;
+  border-color: green;
+  box-sizing: border-box;
+  background: black;
+  color: white;
+}
+
+
 .box-model {
-  width: 
+
+  width: 60%;
+  padding: 50px 50px 50px 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-style: solid;
+  border-width: 2px;
+  border-color: green;
+
 }
